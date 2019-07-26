@@ -1,6 +1,6 @@
-package com.SteamCraft.Init;
+package com.steamcraft.Init;
 
-import com.SteamCraft.SteamCraft;
+import com.steamcraft.SteamCraft;
 import net.minecraft.block.*;
 import net.minecraft.block.material.Material;
 import net.minecraft.item.BlockItem;

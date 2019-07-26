@@ -1,7 +1,7 @@
-package com.SteamCraft.Item;
+package com.steamcraft.Item;
 
 
-import com.SteamCraft.SteamCraft;
+import com.steamcraft.SteamCraft;
 import net.minecraft.item.Item;
 
 public class ItemBase extends Item implements IItemBase {

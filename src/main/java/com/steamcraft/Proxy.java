@@ -1,7 +1,7 @@
-package com.SteamCraft;
+package com.steamcraft;
 
-import com.SteamCraft.Init.BlockSC;
-import com.SteamCraft.Init.ItemSC;
+import com.steamcraft.Init.BlockSC;
+import com.steamcraft.Init.ItemSC;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.fml.event.lifecycle.*;

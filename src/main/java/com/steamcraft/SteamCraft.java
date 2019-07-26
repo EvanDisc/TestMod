@@ -1,6 +1,6 @@
-package com.SteamCraft;
+package com.steamcraft;
 
-import com.SteamCraft.Init.BlockSC;
+import com.steamcraft.Init.BlockSC;
 
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ItemStack;
@@ -51,6 +51,7 @@ public class SteamCraft
      *
      * @return The version number, or NONE
      */
+
     @Nonnull
     public static String getVersion() {
         Optional<? extends ModContainer> o = ModList.get().getModContainerById(MOD_ID);

@@ -1,4 +1,4 @@
-package com.SteamCraft.Item;
+package com.steamcraft.Item;
 
 public interface IItemBase  {
 
