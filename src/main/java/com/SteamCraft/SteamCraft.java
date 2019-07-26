@@ -1,27 +1,24 @@
 package com.SteamCraft;
 
 import com.SteamCraft.Init.BlockSC;
-import net.minecraft.block.Block;
-import net.minecraft.item.Item;
+
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ItemStack;
 import net.minecraft.util.ResourceLocation;
-import net.minecraftforge.event.RegistryEvent;
-import net.minecraftforge.eventbus.api.SubscribeEvent;
+
+
 import net.minecraftforge.fml.DistExecutor;
 import net.minecraftforge.fml.ModContainer;
 import net.minecraftforge.fml.ModList;
 import net.minecraftforge.fml.common.Mod;
-import net.minecraftforge.fml.event.lifecycle.InterModProcessEvent;
-import net.minecraftforge.fml.event.server.FMLServerStartingEvent;
+
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
 import javax.annotation.Nonnull;
 import java.util.Optional;
-import java.util.stream.Collectors;
 
-import static net.minecraft.world.biome.Biome.LOGGER;
+
 
 // The value here should match an entry in the META-INF/mods.toml file
 @Mod(SteamCraft.MOD_ID)
@@ -90,6 +87,10 @@ public class SteamCraft
     public static ResourceLocation getId(String path) {
         return new ResourceLocation(MOD_ID, path);
     }
+
+
+
+
     }
 
 

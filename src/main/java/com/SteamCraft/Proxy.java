@@ -27,7 +27,7 @@ public class Proxy {
      * @param event The event
      */
     private static void commonSetup(FMLCommonSetupEvent event) {
-        SteamCraft.LOGGER.debug("commonSetup for Tutorial Mod");
+        SteamCraft.LOGGER.debug("commonSetup for Steam Craft");
     }
 
     /**

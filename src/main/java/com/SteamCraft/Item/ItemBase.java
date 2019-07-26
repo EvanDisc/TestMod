@@ -7,9 +7,9 @@ import net.minecraft.item.Item;
 public class ItemBase extends Item implements IItemBase {
 
 
-public ItemBase() {
+public ItemBase(Item.Properties props) {
 
-    super(new Item.Properties().group(SteamCraft.ITEM_GROUP));
+    super(props.group(SteamCraft.ITEM_GROUP));
 
 }
 

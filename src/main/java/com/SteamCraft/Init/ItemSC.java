@@ -46,7 +46,7 @@ public final class ItemSC {
         // See the comment in BlockSC, this is the same concept
 //        for (Gem gem : Gem.values()) {
 //            // ruby, sapphire
-//            register(gem.getName(), gem.getGemItem());
+//            register(gem.getName(), gem.getDrillBitItem());
 //        }
     }
 
