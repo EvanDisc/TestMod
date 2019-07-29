@@ -59,7 +59,9 @@ public final class ItemSC {
      * @return The item
      */
     private static <T extends Item> T register(String name, T item) {
+        System.out.println("itemname: " + name);
         ResourceLocation id = SteamCraft.getId(name);
+        System.out.println("item id: " + id);
         item.setRegistryName(id);
         ForgeRegistries.ITEMS.register(item);
         return item;

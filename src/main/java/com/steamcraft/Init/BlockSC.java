@@ -61,6 +61,7 @@ public final class BlockSC {
                 .sound(SoundType.STONE)
         ));
 
+
         blueStoneWall = register("blue_stone_wall", new WallBlock(Block.Properties.from(blueStone)));
         blueStoneSlab = register("blue_stone_slab", new SlabBlock(Block.Properties.from(blueStone)));
 
@@ -91,6 +92,8 @@ public final class BlockSC {
      */
     private static <T extends Block> T register(String name, T block) {
         BlockItem item = new BlockItem(block, new Item.Properties().group(SteamCraft.ITEM_GROUP));
+        System.out.println("block: " + block);
+        System.out.println("blockItem: " + item);
         return register(name, block, item);
     }
 
@@ -115,6 +118,7 @@ public final class BlockSC {
         block.setRegistryName(id);
         ForgeRegistries.BLOCKS.register(block);
         if (item != null) {
+            System.out.println("registering block: " + name);
             ItemSC.BLOCKS_TO_REGISTER.put(name, item);
         }
         return block;
